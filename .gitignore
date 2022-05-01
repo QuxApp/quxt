@@ -1,0 +1,7 @@
+replit.nix
+.replit
+.env
+node_modules/
+.temp
+.cache
+npm-debug.log*
