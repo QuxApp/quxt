@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Product';
+  src: url('product.ttf');
+}
+
+:root {
+  --primary: #1967d2;
+  --secondary: #168afd;
+  --nav: #1C2834;
+  --bg: #121a26;
+}
+
+*::selection {
+  background: var(--primary);
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1vw;
+  font-family: 'Product', sans-serif;
+  font-weight: 400;
+  color: white;
+  background: var(--bg);
+}
+
+* {
+  letter-spacing: 0.05vw;
+  align-items: center;
+  transition: 0.2s;
+}
+
+#content {
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 0 10vw;
+}
+
+nav {
+  display: flex;
+  height: 4vw;
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 0vw;
+  color: white;
+  background: var(--nav);
+}
+
+nav ul  {
+  width: 50vw;
+  justify-content: center;
+  display: flex;
+}
+
+li {
+  display: flex;
+}
+
+.brand {
+  display: flex;
+  margin: 0 1vw;
+}
+
+p {
+  margin-block-start: 0vw;
+  margin-block-end: 1vw;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+h1, h2, h3, h4 {
+  margin-block-start: 2vw;
+  margin-block-end: 0vw;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+h4 {
+  font-size: 1vw;
+}
+
+.header {
+  font-size: 2vw;
+  height: 2vw;
+}
+
+hr {
+  height: 0.1vw;
+  border: none;
+  background: white;
+  border-radius: 0.125vw;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary);
+}

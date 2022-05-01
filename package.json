@@ -1,0 +1,33 @@
+{
+  "name": "quxt",
+  "version": "1.0.0",
+  "description": "Makes",
+  "main": "quxapp.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "array",
+    "qux",
+    "math",
+    "socket",
+    "quxtjs"
+  ],
+  "author": "quxapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quxapp/quxt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quxapp/quxt/issues"
+  },
+  "homepage": "https://github.com/quxapp/quxt",
+  "license": "MIT",
+  "devDependencies": {
+    "node": "^16.14.2"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "socket.io": "^4.5.0"
+  }
+}
