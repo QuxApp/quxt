@@ -69,7 +69,7 @@ class Qux {
   constructor(scope) {
     if (files[scope]) {
       for (const method of files[scope]) {
-        eval(`this.${method} = require('./${scope}/${method}')`)
+        this[method] = require(`./${scope}/${method}`)
       }
     } else {
       for (const [key, value] of Object.entries(files)) {
