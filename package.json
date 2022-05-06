@@ -1,7 +1,7 @@
 {
   "name": "quxt",
-  "version": "1.0.0",
-  "description": "Makes",
+  "version": "1.1.0",
+  "description": "Lodash but OVERPOWERED!",
   "main": "quxapp.js",
   "scripts": {
     "start": "node index.js"
